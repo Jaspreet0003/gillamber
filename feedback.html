@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - GILL AMBER</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #b8860b;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: #111;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      border: 1px solid #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #b8860b;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e6aa00;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      color: #f0c75e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>We'd Love Your Feedback!</h1>
+
+  <form onsubmit="alert('Thank you for your feedback!'); return false;">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Feedback" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <a href="index.html">← Back to Home</a>
+
+  <footer>
+    &copy; 2025 GILL AMBER. All rights reserved.
+  </footer>
+
+</body>
+</html>
